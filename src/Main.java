@@ -29,7 +29,7 @@ public class Main {
         calc.add(5, 2);
         System.out.println(calc.add(5, 2));
 
-/*/
+
         Kalkulator liczydlo = new Kalkulator();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Proszę odać pierwszą liczbę");
@@ -37,6 +37,38 @@ public class Main {
         System.out.println("Proszę podać drugą liczbę");
         int secondVariable = scanner.nextInt();
         System.out.println("Twój wynik dodawania to: " + liczydlo.add(firstVariable, secondVariable));
+
+        Kalkulator liczydlo = new Kalkulator();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Proszę odać pierwszą liczbę");
+        int firstVariable = scanner.nextInt();
+        System.out.println("Proszę podać drugą liczbę");
+        int secondVariable = scanner.nextInt();
+        System.out.println("Twój wynik odejmowania to: " + liczydlo.sub(firstVariable, secondVariable));
+
+
+        Kalkulator liczydlo = new Kalkulator();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Proszę odać pierwszą liczbę");
+        int firstVariable = scanner.nextInt();
+        System.out.println("Proszę podać drugą liczbę");
+        int secondVariable = scanner.nextInt();
+        System.out.println("Twój wynik mnożenia to: " + liczydlo.multiply(firstVariable, secondVariable));
+/*/
+        Kalkulator kalkulator = new Kalkulator();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj pierwszą liczbę");
+        int x = scanner.nextInt();
+        System.out.println("Podaj jaką operację chcesz wykonać wpisując + - * /");
+        String znak = scanner.next();
+        System.out.println("Podaj drugą liczbę");
+        int y = scanner.nextInt();
+        switch (znak){
+            case "+":
+                System.out.println(kalkulator.add(x, y));
+
+
+        }
 
     }
 }
