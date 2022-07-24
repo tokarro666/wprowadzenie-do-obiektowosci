@@ -66,6 +66,19 @@ public class Main {
         switch (znak){
             case "+":
                 System.out.println(kalkulator.add(x, y));
+                break;
+
+            case "-":
+                System.out.println(kalkulator.sub(x, y));
+                break;
+
+            case "*":
+                System.out.println(kalkulator.multiply(x, y));
+                break;
+
+            case "/":
+                System.out.println(kalkulator.divide(x, y));
+                break;
 
 
         }

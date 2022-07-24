@@ -4,8 +4,8 @@ public class Kalkulator {
 2.odejmowanie
 3.mnożenie
  */
-public int add(int a, int b){
-       return a + b;
+public int add(int x, int y){
+       return x + y;
 }
 public int sub (int x, int y){
     return x - y;
